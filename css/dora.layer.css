@@ -1,0 +1,138 @@
+/*图标字体初始化*/
+@font-face {
+    font-family: "iconfont";
+    src: url('font/iconfont.eot'); /* IE9*/
+    src: url('font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('font/iconfont.woff') format('woff'), /* chrome、firefox */ url('font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont, [class*=icon-], [class^=icon-] {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check-right:before {
+    content: "\e607";
+}
+
+.icon-nocircle-close:before {
+    content: "\e602";
+}
+
+.icon-circle-ask:before {
+    content: "\e600";
+}
+
+.icon-notice-down:before {
+    content: "\e601";
+}
+
+.icon-sad:before {
+    content: "\e604";
+}
+
+.icon-smile:before {
+    content: "\e605";
+}
+
+.icon-circle-close:before {
+    content: "\e606";
+}
+
+.layui-layer-dialog .layui-layer-ico,
+.layui-layer-setwin a,
+.layui-layer-btn a {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+}
+
+.layui-layer {
+    position: fixed;
+    background: #ffffff;
+}
+
+.layui-layer-shade {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.3;
+    position: fixed;
+}
+
+.icon-nocircle-close {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    cursor: pointer;
+}
+
+.icon-nocircle-close:hover {
+    opacity: 0.7;
+}
+
+/* 按钮栏 */
+.layui-layer-btn {
+    text-align: right;
+    padding: 0 10px 12px;
+    pointer-events: auto;
+}
+
+.layui-layer-btn a {
+    height: 28px;
+    line-height: 28px;
+    margin: 0 6px;
+    padding: 0 15px;
+    border: 1px #dedede solid;
+    background-color: #f1f1f1;
+    color: #333;
+    border-radius: 2px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.layui-layer-btn a:hover {
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.layui-layer-btn a:active {
+    opacity: 0.7;
+}
+
+.layui-layer-btn .layui-layer-btn0 {
+    border-color: #4898d5;
+    background-color: #2e8ded;
+    color: #fff;
+}
+
+.layui-layer-title {
+    padding: 0 80px 0 20px;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #F8F8F8;
+    border-radius: 2px 2px 0 0;
+}
+
+.layui-layer-dialog .layui-layer-content {
+    position: relative;
+    padding: 20px;
+    line-height: 24px;
+    word-break: break-all;
+    overflow: hidden;
+    font-size: 14px;
+    overflow: auto;
+}
